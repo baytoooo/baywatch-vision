@@ -1,0 +1,90 @@
+{
+  "seed": 42,
+  "dataset_revision": "577e9c942e596819798d42fdc4d14d0b6646a43f",
+  "split": "mirror camera-day disjoint; same cameras across splits",
+  "frames": {
+    "train": 72,
+    "valid": 18,
+    "test": 27
+  },
+  "best_epoch": 160,
+  "temperature": 1.1,
+  "conditions": "Weather metadata unavailable in mirror; no local or night validation",
+  "metrics": {
+    "train": {
+      "n": 3931,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 1741,
+      "tn": 2190,
+      "fp": 0,
+      "fn": 0,
+      "coverage_20_80": 0.9994912236072246,
+      "accepted_accuracy_20_80": 1.0
+    },
+    "valid": {
+      "n": 1007,
+      "accuracy": 0.9950347567030785,
+      "precision": 1.0,
+      "recall": 0.9892241379310345,
+      "f1": 0.9945828819068255,
+      "tp": 459,
+      "tn": 543,
+      "fp": 0,
+      "fn": 5,
+      "coverage_20_80": 0.9920556107249255,
+      "accepted_accuracy_20_80": 0.996996996996997
+    },
+    "test": {
+      "n": 1511,
+      "accuracy": 0.9927200529450695,
+      "precision": 1.0,
+      "recall": 0.9858429858429858,
+      "f1": 0.9928710304601426,
+      "tp": 766,
+      "tn": 734,
+      "fp": 0,
+      "fn": 11,
+      "coverage_20_80": 0.9894109861019192,
+      "accepted_accuracy_20_80": 0.9966555183946488
+    }
+  },
+  "camera_metrics": {
+    "PUCPR": {
+      "n": 900,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 304,
+      "tn": 596,
+      "fp": 0,
+      "fn": 0
+    },
+    "UFPR04": {
+      "n": 251,
+      "accuracy": 0.9721115537848606,
+      "precision": 1.0,
+      "recall": 0.946969696969697,
+      "f1": 0.9727626459143969,
+      "tp": 125,
+      "tn": 119,
+      "fp": 0,
+      "fn": 7
+    },
+    "UFPR05": {
+      "n": 360,
+      "accuracy": 0.9888888888888889,
+      "precision": 1.0,
+      "recall": 0.9882697947214076,
+      "f1": 0.9941002949852508,
+      "tp": 337,
+      "tn": 19,
+      "fp": 0,
+      "fn": 4
+    }
+  },
+  "majority_baseline_test_accuracy": 0.485771012574454
+}

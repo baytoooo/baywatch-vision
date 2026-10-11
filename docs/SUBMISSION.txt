@@ -1,0 +1,19 @@
+BAYWATCH — SUBMISSION PACKAGE
+
+Mode: Partner product / proposed pilot (no partnership claimed)
+Prototype: https://baywatch-royal-vision.bayt.chatgpt.site
+Repository: https://github.com/baytoooo/baywatch-vision
+Deck: docs/BayWatch-defence.pptx (9 slides, under 1 MB)
+Russian timed defence: docs/DEFENCE_RU.txt
+
+The site is static: its entire client-side AI is in dist/, and no backend exists.
+Sites publication is bound to a pushed source commit. GitHub mirrors that source.
+Before the competition deadline record `git rev-parse HEAD` and the deployed Sites version.
+After deadline deploy only the frozen submitted commit, never modify predictions or demos.
+
+Submit all three required items on the team dashboard before the deadline.
+The assistant has not accessed or submitted to the competition dashboard.
+Confirm the public site opens on a second device, rehearse the 7-minute defence,
+and record a continuous live demo backup before the event.
+
+Use README.md for setup, actual measured metrics, limitations, costs and sources.

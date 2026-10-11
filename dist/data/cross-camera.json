@@ -1,0 +1,48 @@
+{
+  "protocol": "Leave-one-camera-out; camera excluded from train AND validation. Same-lot overlap between UFPR04/UFPR05. No deployment model change. Threshold 0.5, no quality gate or rejection.",
+  "folds": {
+    "PUCPR": {
+      "n": 900,
+      "accuracy": 0.9977777777777778,
+      "precision": 0.9934640522875817,
+      "recall": 1.0,
+      "f1": 0.9967213114754099,
+      "tp": 304,
+      "tn": 594,
+      "fp": 2,
+      "fn": 0,
+      "best_epoch": 143,
+      "train_samples": 1630,
+      "validation_samples": 407
+    },
+    "UFPR04": {
+      "n": 251,
+      "accuracy": 0.8446215139442231,
+      "precision": 1.0,
+      "recall": 0.7045454545454546,
+      "f1": 0.8266666666666667,
+      "tp": 93,
+      "tn": 119,
+      "fp": 0,
+      "fn": 39,
+      "best_epoch": 118,
+      "train_samples": 3261,
+      "validation_samples": 839
+    },
+    "UFPR05": {
+      "n": 360,
+      "accuracy": 0.9777777777777777,
+      "precision": 0.9798270893371758,
+      "recall": 0.9970674486803519,
+      "f1": 0.9883720930232558,
+      "tp": 340,
+      "tn": 12,
+      "fp": 7,
+      "fn": 1,
+      "best_epoch": 152,
+      "train_samples": 2971,
+      "validation_samples": 768
+    }
+  },
+  "seed": 42
+}

@@ -1,0 +1,15 @@
+Executed checks:
+- Python/JS numeric feature and inference parity passed (<1e-8 for stored fixture).
+- Seven Node tests passed: inference, sampling, abstention, temporal reset, action rules, ROI.
+- Actual browser loaded local model and processed 100-zone PKLot image.
+- Browser output: 53 free / 45 occupied / 2 review; accepted decisions 98/98 correct on this frame.
+- Artificial darkening: 100/100 zones sent to manual review.
+- Uploaded a separate permitted PKLot image, drew a new single bay, and received free prediction.
+- Initial observed latency 13ms; another page load 19ms (Apple M5). Single observations, not p95.
+- Model test and cross-camera experiment are in machine-readable JSON.
+- PPTX: 9 slides, two editable tables, package and layout checks passed; all slides visually inspected.
+
+Limits:
+- Viewport override in in-app browser appeared to scale the desktop surface; true mobile hardware has NOT been validated. CSS contains responsive layouts, but this is not a device certification.
+- Real webcam permission/stream and long-duration charger overstay have not been tested end-to-end on physical deployment hardware.
+- No consented local dealership data, actual night data or partner business baseline available.

@@ -1,0 +1,704 @@
+[
+  {
+    "split": "train",
+    "file": "PUCPR_2012-09-13_14_25_27.jpg",
+    "sha256": "1ea11215c8c5b9115edf12eb59d15e34c13e11e5ccbc788bb9ad2df63874a8f7",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-09-13_14_25_27.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-09-13_15_15_29.jpg",
+    "sha256": "9a8d5749acb615f68de1a3378aab59cc7b8faec2b54068dd48dbb0afb1b98b9f",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-09-13_15_15_29.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-09-13_16_30_32.jpg",
+    "sha256": "0118b1027a5ec187967b5df59eb618e7c7c1c5f20883b0be5abc36573d7cdbb3",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-09-13_16_30_32.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-09-14_15_41_27.jpg",
+    "sha256": "4db3a8a1a3f18c446327d6a2a4bae83381377d63c7b169562b51ec17555d0b89",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-09-14_15_41_27.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-09-17_17_04_18.jpg",
+    "sha256": "00d1e4a73b8040834e88f2dcf525f275960b66834a6aad327249fa5f55b1bae2",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-09-17_17_04_18.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-09-18_09_09_55.jpg",
+    "sha256": "b33d811aabf6f9d9c98cb95a64d4eb122f6e2f163f6c66a03085b953e8231a9b",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-09-18_09_09_55.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-09-28_17_01_27.jpg",
+    "sha256": "21123a6002a2b00abfa8e77f463672f31f422f498745a8595907032590c1cb79",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-09-28_17_01_27.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-11_14_31_49.jpg",
+    "sha256": "c4a56f301f51f6cc3cf3faf37b508014824d64665c99e28f8abb496cf963d5c4",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-11_14_31_49.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-11_15_56_52.jpg",
+    "sha256": "1b204f41bfbb457494ca2461774aa059d57f04c75d764dd4a21f2b123809e1ba",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-11_15_56_52.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-12_06_27_31.jpg",
+    "sha256": "9c9364643967e316cdbeee10926f5b94b6e60ef5ae2093ee966604d830df26c2",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-12_06_27_31.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-13_06_08_34.jpg",
+    "sha256": "77ee432012cd81b2f91f6224a0c744d3c6793d0c4d18e77a4bc9d1be06c59388",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-13_06_08_34.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-13_09_08_41.jpg",
+    "sha256": "5c6911170cdff5c042ed6120d219a46a4207dbfb78c4fb0ae02b894edafdebec",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-13_09_08_41.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-13_12_08_49.jpg",
+    "sha256": "25a99d8f6da93ed457f625ec534bf8b79646792969872199efaf769c5a4df87e",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-13_12_08_49.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-15_17_56_10.jpg",
+    "sha256": "0351787cc6238ed4d2028cf15b73781455e2e90c1fdb09cc2d329d0b14fb0ed2",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-15_17_56_10.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-25_13_03_33.jpg",
+    "sha256": "79bec9107257b1b9a95ac23105efb15b9af9707dd7a5a67028929661976359dd",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-25_13_03_33.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-25_18_23_51.jpg",
+    "sha256": "eb88f4e783f3cc01bbbe688c9af526a1ecd084e911f548f0651ab0e0a7f2cd89",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-25_18_23_51.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-27_09_30_44.jpg",
+    "sha256": "e1f7552688d30f9ad337e729b77c13ba752983bd61b0511b2fd68e9bc2ff1761",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-27_09_30_44.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-27_15_51_04.jpg",
+    "sha256": "699e4b6ba7ee72cb2ec1a5a46d74f0b025f7331e95f66247675f8ba536037d7d",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-27_15_51_04.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-27_18_16_11.jpg",
+    "sha256": "6d7ea8b49162011958a14ff9685edaebb80c4b1787874a36d7cb46dc34bf12ac",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-27_18_16_11.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-10-30_16_12_21.jpg",
+    "sha256": "8b002300777ff6f06d79d70636fe4ec011a587247a5935319984ea4dbbf8b2ef",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-10-30_16_12_21.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-11-08_09_50_34.jpg",
+    "sha256": "2f6cd2840556bdf9e8d2a92984469dc91191c866a4f4f23b0ab188580514c312",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-11-08_09_50_34.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-11-08_13_35_45.jpg",
+    "sha256": "ab06b90cad5dbab8edf39afcaa94a01846decb4fe8c87d11f50d36b9a1d256e9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-11-08_13_35_45.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-11-10_18_23_13.jpg",
+    "sha256": "5d74b4aa20da2e7a8e2ce8d6af1c24ec944a266109f862bf8dd001b4ddc9cece",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-11-10_18_23_13.jpg"
+  },
+  {
+    "split": "train",
+    "file": "PUCPR_2012-11-11_16_19_13.jpg",
+    "sha256": "e2cf102f9ccc04efb2948bcaa6db38d20c729e89ba21a6dc7987775431b4b9c7",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/PUCPR_2012-11-11_16_19_13.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-08_16_50_13.jpg",
+    "sha256": "c57296f60c7278b964970b4d6ee1e634652a866ae3d3ac29f9b8a76906b4ac79",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-08_16_50_13.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-11_20_01_13.jpg",
+    "sha256": "c4288c83622d8ed02500d1c1b7d1bad09424ccf7facdf6e99ab7298345dec425",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-11_20_01_13.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-13_14_45_10.jpg",
+    "sha256": "f3f4e03fa6c9a4032b4cf10531015514b8f8557c9d4ae4708af22ba23e586678",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-13_14_45_10.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-15_10_00_05.jpg",
+    "sha256": "04a39d2deb466d5f1aa840d53e4214f19d73dd104a41d340068212d4276fc21b",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-15_10_00_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-19_11_30_06.jpg",
+    "sha256": "00f9d8b650a3e6b272dcba0e8b018e86be6988150206e1c88cf72426458955f4",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-19_11_30_06.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-20_10_10_05.jpg",
+    "sha256": "8d5daf526d6c61916dddffe072e396fda703a8f846dca97acf4242d3bd2cae52",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-20_10_10_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-20_11_05_05.jpg",
+    "sha256": "a694105bbeb187afe02e1aeddc039145bc2bba74ca011a7d5db52e19e1bbb640",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-20_11_05_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-20_12_05_07.jpg",
+    "sha256": "c6c2f2c4072f3ed145e75bb532957c0e2387e2fccede46ef2c7f99d223e9747c",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-20_12_05_07.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-20_20_40_16.jpg",
+    "sha256": "e6d717e3a67c627e2e1a6a926bae5cb876003854ca04d04eebc488ae7bedc311",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-20_20_40_16.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-23_09_40_05.jpg",
+    "sha256": "dc2f66e54d119ad4e7f18211d00287ba13b7ed992ea5af22582c65905a460121",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-23_09_40_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-23_10_55_06.jpg",
+    "sha256": "25ebd9ee56b067e91ff8851f04fc9a0552a8beed7b4dada3c28db75a9d409910",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-23_10_55_06.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-23_16_20_12.jpg",
+    "sha256": "6f19761d2e5378469426fbee05f807461f64743ea82d75f8b1610fe5b71d72c0",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-23_16_20_12.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-25_16_00_11.jpg",
+    "sha256": "1a7c3f12efa57ef38a4755255b84afb80a39dd3dbfb618866c2fe55fe7accc8f",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-25_16_00_11.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-28_14_45_10.jpg",
+    "sha256": "035cdb04a06b83f2b9a5bc7786bdc7ec4ff6754a27e44ecb6dca8bb3b55a6ed0",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-28_14_45_10.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2012-12-28_16_25_12.jpg",
+    "sha256": "4803169749e6b9d8156876bd21110dd74b6d43cf728329869f74a4678adffbe3",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2012-12-28_16_25_12.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-16_08_55_04.jpg",
+    "sha256": "fd562b8624001e56d0c6336b59912cfe65de5f0beb36a282001d8d7d5f7923aa",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-16_08_55_04.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-16_09_25_05.jpg",
+    "sha256": "4b30f44aa34717cdd1e888a5875b978359f9742fac960c9f4ed6e80ebde850c0",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-16_09_25_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-16_12_00_07.jpg",
+    "sha256": "ce46565069f48661eb5d739ce0f87dff7ad6a9f7425a0275c5fa9c8a480e1f34",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-16_12_00_07.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-16_17_35_14.jpg",
+    "sha256": "64500099c525aa331a4cc47dd5882df88600e01bc3978d82958734fd2c556122",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-16_17_35_14.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-18_09_15_05.jpg",
+    "sha256": "0846b0f30a0d98f32a45b61397961a398e0bf9fab78436d367567726368e2ed9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-18_09_15_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-19_16_15_12.jpg",
+    "sha256": "6a5817bf24587914a429b4687cd7db8e3dbfeda75aca9e20a019bdc751309359",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-19_16_15_12.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-22_07_40_02.jpg",
+    "sha256": "37fd63c6b1b33cc04630ccbfd4722b3bda7ca1c7bcf3c5b91ce080af985577d1",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-22_07_40_02.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-22_10_55_06.jpg",
+    "sha256": "9c4b864e5f97241ec63c393361349399bfbd0634fa444a7482ca8655ababeaf3",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-22_10_55_06.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR04_2013-01-22_20_50_16.jpg",
+    "sha256": "0ffe6d5aa36d18ce7393a2b4a9d688dad3df595fcc620c9217338aa0c5293e06",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR04_2013-01-22_20_50_16.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-02-24_07_55_02.jpg",
+    "sha256": "08ded46ed49e3af3dc9a9ff179b10328ae557dbaab5808ad25f62a6db2436a92",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-02-24_07_55_02.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-02-24_14_50_09.jpg",
+    "sha256": "c0e37c76c3e64dd0b17172aac17d782f8f833f6abe50d02b982368768de51ac8",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-02-24_14_50_09.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-03_10_50_05.jpg",
+    "sha256": "39dc0a706310af327b13c8662d38ca1da79c358c31d065cf066d942946c228e3",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-03_10_50_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-03_11_00_05.jpg",
+    "sha256": "fa200b087bd9760b6da0a1c208892d00f7b41f9f308c73bf599317244847fab5",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-03_11_00_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-05_12_15_07.jpg",
+    "sha256": "84f16cb35ec5f6450247c2bb9adc6ddce04530956c78118c906e80603c49c4f3",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-05_12_15_07.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-09_09_50_04.jpg",
+    "sha256": "f14c256a1e6ed406fcd79cb517a0d47994328663020f1bbc39e4df9fd4ea15e1",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-09_09_50_04.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-10_06_20_00.jpg",
+    "sha256": "a46c7b21d6125c104ab51f998999c2f23f1a1e24fb0b1ca91968f5df00938ec5",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-10_06_20_00.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-10_08_35_02.jpg",
+    "sha256": "ac26d6021e58ef9110ba39542da11aac6929acbcb55b0358e24235180a8a2a17",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-10_08_35_02.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-15_12_10_07.jpg",
+    "sha256": "07b46d8e6a1114e693a4aa1b51eadfddcb35b38446de46e9b6faf03229527efa",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-15_12_10_07.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-15_14_50_10.jpg",
+    "sha256": "d9095e882258c5168d405e5242d7ac9020588eb5e6c17a84a81d7e479e177bfa",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-15_14_50_10.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-16_10_40_05.jpg",
+    "sha256": "332d3b3728cd40d487b4f42f9db88e02423eb918701ce1f2ef1e8f414274d9fe",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-16_10_40_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-17_09_55_04.jpg",
+    "sha256": "2208af6e72bc5ae45cbb64f41cffdd7b30f5070f47805a7a7b5ed30cf11822eb",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-17_09_55_04.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-17_13_05_08.jpg",
+    "sha256": "fc2573d8a4d47e35fd611329e0d6bf74e4fa2f20326ea125f695263ab7df9bcf",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-17_13_05_08.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-19_16_00_11.jpg",
+    "sha256": "33e88aac7adf7ff458fd21035ec72a7818041a789cae0c59f26956529ecdd288",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-19_16_00_11.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-20_10_55_05.jpg",
+    "sha256": "ed41f9180b6d32a0a510e3311e91f5b7dacf687138a6aae860ea674d09d02877",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-20_10_55_05.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-20_14_25_09.jpg",
+    "sha256": "20218bc3858b395c98552f5a687318632f42187e0c63663f8014d6a311551b1a",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-20_14_25_09.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-03-22_08_25_02.jpg",
+    "sha256": "e6c59d49cbe406fb5bfd7fe403be27a6eda37cb42b2f9fd23d3ce86ba107f199",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-03-22_08_25_02.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-04-09_17_55_13.jpg",
+    "sha256": "922e6414e313ff9e46f2258e28be9bdeeb90ebd923b77595933c27bd524124c4",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-04-09_17_55_13.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-04-10_06_30_00.jpg",
+    "sha256": "9e9f64df7cc669430c6acc572f1bd5a01440c01c59d4a464dd3f6a26278636c5",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-04-10_06_30_00.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-04-10_07_30_01.jpg",
+    "sha256": "eb442df2d42baec3804a5cc97936a9fe808956e3926939dd1a75faeae94b4bc9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-04-10_07_30_01.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-04-10_09_45_04.jpg",
+    "sha256": "81d511cd6c0b1ca026ab05c25a79374a4bac53bf1beefc640355534d9875c653",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-04-10_09_45_04.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-04-10_11_25_06.jpg",
+    "sha256": "800afd7e36194d974f6c0629bc8f7e63f5fa745643ff1ccc9adb6c97ade511b9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-04-10_11_25_06.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-04-10_17_40_13.jpg",
+    "sha256": "4a3684dbd5e696a7facaf7e78c7962f8d359f4970cc080a116661f28cd86fd5b",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-04-10_17_40_13.jpg"
+  },
+  {
+    "split": "train",
+    "file": "UFPR05_2013-04-13_08_45_03.jpg",
+    "sha256": "4abd2e08cf06c03513a120740f40f3b68c3968f01b46ee8863683091ca98d14b",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/train/UFPR05_2013-04-13_08_45_03.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "PUCPR_2012-09-15_07_57_04.jpg",
+    "sha256": "a3d7a72c6d392539861c0ad2a6f4434006880d82af297d730412694a8d3f0b42",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/PUCPR_2012-09-15_07_57_04.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "PUCPR_2012-10-26_06_29_24.jpg",
+    "sha256": "09f8054cb28e9e261a9505ed9e615d684d7576dc520fe38984ae5a375d5ba670",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/PUCPR_2012-10-26_06_29_24.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "PUCPR_2012-10-26_10_04_36.jpg",
+    "sha256": "07d10374b45383292d7d59e549c067d1469159dcb03a9f4536aa88069448b857",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/PUCPR_2012-10-26_10_04_36.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "PUCPR_2012-10-26_17_49_59.jpg",
+    "sha256": "6305f18fcfa2ce8b310abfb00915b2188ec4ab8c9468a8d7745edb88886a9f5e",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/PUCPR_2012-10-26_17_49_59.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "PUCPR_2012-11-09_10_56_44.jpg",
+    "sha256": "e460a462809ac17008c8a58d799aa03c619f786fbff48af20af0e7ed66a9bc04",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/PUCPR_2012-11-09_10_56_44.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "PUCPR_2012-11-09_19_02_07.jpg",
+    "sha256": "c65e23ae36121b11dbb687002fa78722e8bfa7c1a0772beb06d98cf8d63dc9f9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/PUCPR_2012-11-09_19_02_07.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR04_2012-12-14_09_55_05.jpg",
+    "sha256": "5cf10f1bfeccdb2135d006069f0717206c7309aadf5aed57cf8e0099288234e1",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR04_2012-12-14_09_55_05.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR04_2012-12-14_18_25_15.jpg",
+    "sha256": "a797f81641df768e55bf5715364b73f46d603ed8ecee02baa6ed55bbb1fa0600",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR04_2012-12-14_18_25_15.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR04_2012-12-22_14_15_10.jpg",
+    "sha256": "511af2921d4581207d2d77dd7b069b9bff5eb1b7db8e1386675ed830e436679d",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR04_2012-12-22_14_15_10.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR04_2012-12-24_08_00_03.jpg",
+    "sha256": "b1215b23afe8703d28f2c19fd518d1518f23d809c498d4f08efff2ddf0d550c6",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR04_2012-12-24_08_00_03.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR04_2012-12-24_13_20_08.jpg",
+    "sha256": "1a9bd6573c1a68ea65d6df3c80c1e219aa6fe04370ce55f07cee2db4d42e6944",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR04_2012-12-24_13_20_08.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR04_2012-12-29_14_50_38.jpg",
+    "sha256": "69bc4f7a1da0bd8c148d291a88df49484e5697ae48bce9b45d9aa38dfc59aeb7",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR04_2012-12-29_14_50_38.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR05_2013-02-22_15_15_09.jpg",
+    "sha256": "4999d1d7bfb24123db39ca62fb481456e577ea038a34b1e818aa4a42c495fcc2",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR05_2013-02-22_15_15_09.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR05_2013-02-23_10_50_05.jpg",
+    "sha256": "e3d39cc05c4cd7e430affaa988720b1f5a228105058922d6893ed4eef0f5d7a7",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR05_2013-02-23_10_50_05.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR05_2013-02-23_11_35_05.jpg",
+    "sha256": "16c73659d656731d671ad9d92675cc6918a22436a617139be862cd91986baa44",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR05_2013-02-23_11_35_05.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR05_2013-02-23_15_20_09.jpg",
+    "sha256": "5c2aea27daea90d8e6268d7bb0df3a491f8b219f37bdcfa3125f88836e613790",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR05_2013-02-23_15_20_09.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR05_2013-02-23_16_00_10.jpg",
+    "sha256": "b2580be0f2d1080f46105139adb6519c09ba0cbf5fb16de1daf3a0a032c6cf39",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR05_2013-02-23_16_00_10.jpg"
+  },
+  {
+    "split": "valid",
+    "file": "UFPR05_2013-04-12_07_30_01.jpg",
+    "sha256": "180def38cfd5a4618be1b1b4e741f400987c589dce16064460f17300a24f7845",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/valid/UFPR05_2013-04-12_07_30_01.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-09-16_16_18_19.jpg",
+    "sha256": "321f195bfb3fa8e719219888b9d644b8994cc8f464126f9ecc19026b4c264632",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-09-16_16_18_19.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-09-16_16_48_20.jpg",
+    "sha256": "42f22b2d1378f9e9db6b7ef52b5d58847c032bef55069fd735a329a6900d56c8",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-09-16_16_48_20.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-10-16_10_18_32.jpg",
+    "sha256": "c9b8096ab7936aa8f620ab6d2e4eb8486ca8a0576d8bac9c7fe904996fbf0233",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-10-16_10_18_32.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-10-16_12_53_40.jpg",
+    "sha256": "f27314f53b21dc44df4c753091691faed805d8251b4e75683c1bf7dc3ffb683a",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-10-16_12_53_40.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-10-16_12_58_40.jpg",
+    "sha256": "67778c5c110d5e64855244b94a96aea986f7281757383ca2bf0f18409963f254",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-10-16_12_58_40.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-10-28_12_37_03.jpg",
+    "sha256": "4e5066de6ea2c0a6c5d63a35faad5a4805b5f89d177e1e40b4a8510c764204f3",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-10-28_12_37_03.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-10-28_14_02_07.jpg",
+    "sha256": "62a38dec3551f45cd2654b781c9044ac0942b10e3e982a4ec8137e1a2dbdb298",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-10-28_14_02_07.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-10-29_12_53_12.jpg",
+    "sha256": "8cf2f9e5e1140128c7ef382001ffdb0bbbc120322adaf47ea4f3d1c2db7e814e",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-10-29_12_53_12.jpg"
+  },
+  {
+    "split": "test",
+    "file": "PUCPR_2012-10-29_15_28_21.jpg",
+    "sha256": "81bb4fd9f9014c0d2541c5c4e991cb9cc7f5d89fdab91b0e3ba4e9c482be92f1",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/PUCPR_2012-10-29_15_28_21.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2012-12-16_15_30_12.jpg",
+    "sha256": "4150eb1b140dbb7108c5dcd17bec2288903f476eddf4d579b3546b5366ffcbf0",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2012-12-16_15_30_12.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2012-12-16_17_00_14.jpg",
+    "sha256": "643d1fb9b073abef502d906ff767e71e9184568b3c5f7f706029f8f58f18c10f",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2012-12-16_17_00_14.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2013-01-17_15_25_11.jpg",
+    "sha256": "188513c94c14149e184ca4b34fd0eea8f690d362587f8d1428f657fe61f797dd",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2013-01-17_15_25_11.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2013-01-17_15_35_11.jpg",
+    "sha256": "6b010502f6b500f42f2d0611b3e52e8c5de8cde79fb5b84d4b073b89ef86533b",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2013-01-17_15_35_11.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2013-01-17_16_25_12.jpg",
+    "sha256": "8eb7f9ac5e327c343643c5afe42a34d9a8cb750601d8bae456e0e0e4c8d7ea0f",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2013-01-17_16_25_12.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2013-01-20_15_10_11.jpg",
+    "sha256": "d7de6a1d9aee9c1a9e5cf230fd6a2e8256be31b3444dc5cb0abfe59b76abc3f7",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2013-01-20_15_10_11.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2013-01-20_16_15_12.jpg",
+    "sha256": "1151910278cff3da3a7160e66226e7414b71b7e7f96677df18577a22e365f68c",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2013-01-20_16_15_12.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2013-01-21_18_55_15.jpg",
+    "sha256": "25c32d9592bff85b9b9d0d876d9a5d1235eb211efae8120902951f43be856ea9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2013-01-21_18_55_15.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR04_2013-01-21_19_25_15.jpg",
+    "sha256": "b0bfab4059685948aa3d9608809f99a9f4fe6fba6b5d6af93388bff2f72a37a9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR04_2013-01-21_19_25_15.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-06_11_10_06.jpg",
+    "sha256": "78637c59f9f2b233e190d3d6f45c68488f87046f41e6794a4d65125a62ac74de",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-06_11_10_06.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-12_09_35_04.jpg",
+    "sha256": "a203887fd922fed2153bd4b5fa3052d896cdb760a2340e25ba76832ab38627e1",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-12_09_35_04.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-12_09_40_04.jpg",
+    "sha256": "75f174fb019ff34b7a9175cce9804f8714a92f6d7cf82e02fa4f4258266e0f4a",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-12_09_40_04.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-12_10_20_05.jpg",
+    "sha256": "f2072bbb38738e3c5dc8bf6bc2484acbb132cce3bc64e45e96ea0a02c9f4181b",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-12_10_20_05.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-18_08_55_03.jpg",
+    "sha256": "ca90c79f5a79279f0406a0b741484844153697ec0b2538e8b32de7c49b1b27f9",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-18_08_55_03.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-21_12_45_07.jpg",
+    "sha256": "6cbfccd2fe1e76f4e69330f125508e89ae10bb44333ccf522f409ccedf9b9585",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-21_12_45_07.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-21_14_10_09.jpg",
+    "sha256": "765ee58b20fde344f32d71b25009c4ce9b91befc3d6a64ce78ee21705dea5c27",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-21_14_10_09.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-21_16_20_12.jpg",
+    "sha256": "b9eb232e4e46d15cfc4b407b7c0c0709a3fea3a74cfb0fd8a886c8c14ece1cc0",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-21_16_20_12.jpg"
+  },
+  {
+    "split": "test",
+    "file": "UFPR05_2013-03-21_17_10_13.jpg",
+    "sha256": "ea053e45ae962003dd3961203764422afb61b8477120e9701f12caae2b42dc39",
+    "source": "https://huggingface.co/datasets/dronefreak/PKLot/resolve/577e9c942e596819798d42fdc4d14d0b6646a43f/data/images/test/UFPR05_2013-03-21_17_10_13.jpg"
+  }
+]
