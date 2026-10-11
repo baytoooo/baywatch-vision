@@ -11,3 +11,5 @@ jobs:
       - run: npm test
       - run: node --check dist/app.js
       - run: node --check dist/vision.js
+      - run: node --check dist/detector.js
+      - run: node --check dist/media.js

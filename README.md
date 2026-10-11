@@ -2,7 +2,7 @@
 
 **Mode: Partner product (proposed pilot).** Proposed owner: dealership yard operations manager at BYD Royal Motors. No partnership, interviews, deployment in a real dealership, or commercial results are claimed. This is a working final-round prototype built with Codex assistance.
 
-A static web application that turns a fixed-camera image into per-space occupancy, abstentions, and human-verification tasks. Upload any permitted image, outline individual parking bays, run the model, and export an evidence report. The classifier consumes actual pixels; no lookup of filenames, ground-truth labels, or hard-coded answers is used for inference.
+Version 2 automatically detects vehicles in uploaded photos, video, or a webcam stream using locally hosted pretrained COCO-SSD Lite MobileNet v2. No rectangles are required for this default mode. A separate parking-space mode uses our trained occupancy classifier and a configured map of bays to produce free/occupied/review decisions and human-verification tasks. The classifier consumes actual pixels; no lookup of filenames, ground-truth labels, or hard-coded answers is used for inference.
 
 ## Links
 
@@ -18,12 +18,12 @@ python3 -m http.server 4173 --directory dist
 # open http://localhost:4173
 ```
 
-Or `npm start` (Python 3 required). No npm install, API key, GPU, backend, or paid inference service is required. All inference is browser-side CPU JavaScript. Serving the static `dist/` directory over HTTPS is the entire production deployment. Camera permission requires HTTPS or localhost.
+Or `npm start` (Python 3 required). No npm install, API key, GPU, backend, or paid inference service is required. All inference runs in the browser: TensorFlow.js WebGL (CPU fallback) for vehicles and CPU JavaScript for occupancy. The first detector load downloads approximately 18 MB of weights from this same site. Serving the static `dist/` directory over HTTPS is the entire production deployment. Camera permission requires HTTPS or localhost.
 
 ## Test
 
 ```sh
-npm test  # Node >=20; seven substantive tests including Python/JS numeric parity
+npm test  # Node >=20; 14 substantive tests including Python/JS numeric parity
 ```
 
 Test coverage: feature/inference parity to Python; nearest-neighbour sampling boundaries; dark/white/blank frame abstention; confidence band and minimum crop; three-observation temporal hysteresis and dwell reset; conservative overstay action rules; scenario ROI arithmetic.
@@ -68,7 +68,13 @@ Three independently trained audit models exclude one camera from both train and 
 
 **The 84.5% result is a material limitation. New cameras require labelled local validation, calibration and potentially retraining.** This is not a leave-one-dealership-out test. `dist/data/cross-camera.json` contains the protocol and confusion matrices.
 
-## Architecture
+## Automatic vehicle detection (v2)
+
+The default demo is a real 20-second video, Freezy Traffic by LIFEOFVIDS, CC BY 3.0. It is not an animated photo. Uploads start analysis automatically; controls support pause/resume, restart and seeking. JPG/PNG/WebP and browser-supported MP4 H.264/WebM are supported; MOV/HEVC support depends on the browser. Unsupported codecs produce an explicit error. File limit: 500 MB. Media pixels stay on-device.
+
+COCO-SSD Lite MobileNet v2 is a pretrained third-party model, not trained by us. The default threshold is 0.40. Full-frame inference plus four overlapping tiles helps find smaller vehicles; class-agnostic IoU suppression merges duplicates. Temporary IoU IDs are neither reliable identity nor a unique vehicle count. Counts refer to the current frame. No detector precision/recall benchmark is claimed. Small, overhead, occluded and distant vehicles can be missed; one overhead PKLot image produced only two detections during QA. The 99.272% metric below belongs exclusively to the separate occupancy classifier. Empty bays are not automatically discovered.
+
+## Parking-space architecture
 
 1. User supplies an image/video/camera; a fixed per-space rectangle is configured once per view.
 2. Nearest-neighbour sample of each zone to 32×32 RGB.
@@ -79,21 +85,21 @@ Three independently trained audit models exclude one camera from both train and 
 7. Rules generate human-verification tasks for restricted occupancy, uncertain zones and long observed dwell at a charging bay. Occupancy does not imply active charging, engine type, vehicle identity or wrongdoing.
 8. Downloadable JSON records pixel-derived scores, quality checks, decisions, acknowledgments and observed latency; it does not include image pixels.
 
-This is a specialised trained model with an operational decision layer, not an LLM wrapper. Rectangular zones are manually configured for a new camera; the application does not automatically discover parking geometry or general objects. No tracking of driver identity, faces or number plates.
+This is a specialised trained model with an operational decision layer, not an LLM wrapper. Rectangular zones are manually configured for a new camera; this mode does not automatically discover parking geometry. The separate default detector finds vehicles. No tracking of driver identity, faces or number plates.
 
 ## Performance and cost
 
-Observed in the Codex browser on an **Apple M5**, macOS 26.4.1: initial demo processing of 100 zones at 1280×720 was **13 ms** (one observation, not p95 or an SLA). The UI measures actual preprocessing, feature extraction, neural inference and rules with `performance.now()` every run. Image decoding, loading, rendering and model download are outside that timer. Video deliberately samples about once per second; tab foreground and a fixed camera are required. No claim is made about phone speed; judges see their actual measurement.
+Observed in the Codex browser on an **Apple M5**, macOS 26.4.1: initial demo processing of 100 zones at 1280×720 was **13 ms** (one observation, not p95 or an SLA). The UI measures actual preprocessing, feature extraction, neural inference and rules with `performance.now()` every run. Image decoding, loading, rendering and model download are outside that timer. Video inference is scheduled roughly every 600 ms or slower if the device requires it; tab foreground and a fixed camera are required. No claim is made about phone speed; judges see their actual measurement.
 
-Model JSON is about 233 KiB. No external runtime inference calls or paid API charges: marginal **API cost $0/frame**. This excludes device amortisation, camera, electricity, hosting, integration and maintenance.
+Occupancy model JSON is about 233 KiB; the separate vehicle detector weights are approximately 18 MB. In v2 browser QA, a 960×540 uploaded video took 58–127 ms for detector + tile merge in several individual observations on Apple M5; these are not percentile benchmarks or an SLA. No external runtime inference calls or paid API charges: marginal **API cost $0/frame**. This excludes device amortisation, camera, electricity, hosting, integration and maintenance.
 
 Editable illustrative economics: 80 checks/day × 1.5 saved minutes × $4/hour × 26 days = $208/month time-equivalent benefit; $40/month operating allowance leaves $168; $300 setup gives 1.79 months simple payback. These are assumptions, not quoted prices, revenue, or measured partner savings. $40 allowance can be budgeted as hosting $5, existing-device electricity $5 and support $30; verify locally. New cameras/devices and integration work are excluded. Saved time only becomes cash savings if capacity is redeployed.
 
 ## Demo sequence (under 2 minutes)
 
-1. Analyse a bundled PKLot image; show free / occupied / review and actual ms.
-2. Open “Проверка модели”; compare with ground truth (labels used only here).
-3. Upload an allowed jury image, add one rectangle per parking bay, analyse.
+1. Play the bundled real video; show automatic vehicle boxes, counts, pause and seek.
+2. Upload an allowed jury photo or MP4; analysis starts without manual zones.
+3. For occupancy evidence, choose a PKLot photo and “Парковочные места”, then compare with ground truth in “Проверка модели”.
 4. On a static image, test artificial darkness and show abstention; restore.
 5. Export JSON; show adjustable ROI.
 

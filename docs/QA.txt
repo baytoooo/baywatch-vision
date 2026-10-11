@@ -13,3 +13,6 @@ Limits:
 - Viewport override in in-app browser appeared to scale the desktop surface; true mobile hardware has NOT been validated. CSS contains responsive layouts, but this is not a device certification.
 - Real webcam permission/stream and long-duration charger overstay have not been tested end-to-end on physical deployment hardware.
 - No consented local dealership data, actual night data or partner business baseline available.
+
+V2 QA (2026-10-11): 14/14 automated tests passed, including upload MIME fallback, synchronous metadata listener ordering, codec errors, aspect ratio, NMS, tile coverage, tracking reset. In actual Codex browser on Apple M5: local JPG upload automatically produced boxes; local MP4 upload played and detected vehicles; restart returned 0:00; seek 50% returned 0:09 and recomputed boxes. Individual video inference observations 58, 60, 95 ms. Pretrained detector missed most distant overhead cars in parking-1.jpg (2 detections): no completeness claim. Camera hardware and alternate browser codecs not tested.
+V2 negative UI test: a local malformed .mp4 was selected through the actual file picker. UI displayed an explicit MP4 H.264 / WebM codec error, rather than silently showing zero detections. Additional restart observation: 127 ms (not a performance benchmark).

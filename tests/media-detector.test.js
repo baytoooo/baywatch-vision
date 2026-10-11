@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {iou,nms,tileRegions,Tracker} from '../dist/detector.js';
+import {mediaKind,waitVideo,fitSize} from '../dist/media.js';
+test('file extensions work when browser omits MIME type',()=>{assert.equal(mediaKind({name:'MyClip.MOV',type:''}),'video');assert.equal(mediaKind({name:'photo.JPG',type:''}),'image');assert.throws(()=>mediaKind({name:'report.pdf',type:''}));});
+test('video readiness listeners precede source loading, including synchronous cache event',async()=>{class V extends EventTarget{readyState=0;videoWidth=0;load(){this.readyState=2;this.videoWidth=640;this.dispatchEvent(new Event('loadeddata'));}}const v=new V();await waitVideo(v,'clip.mp4',100);assert.equal(v.src,'clip.mp4');});
+test('unsupported codec surfaces an actionable error and removes listeners',async()=>{class V extends EventTarget{readyState=0;load(){this.dispatchEvent(new Event('error'));}}await assert.rejects(waitVideo(new V(),'bad.mov',100),/H.264/);});
+test('dimensions preserve portrait aspect and reject empty images',()=>{assert.deepEqual(fitSize(1080,3840),[540,1920]);assert.throws(()=>fitSize(0,720));});
+test('cross-tile duplicate vehicles merge without merging separate cars',()=>{const boxes=[{bbox:[10,10,40,30],class:'car',score:.8},{bbox:[11,11,40,30],class:'truck',score:.7},{bbox:[100,10,40,30],class:'car',score:.6}];assert.equal(nms(boxes).length,2);assert.equal(iou([0,0,10,10],[0,0,10,10]),1);});
+test('overlapping tile geometry covers whole image',()=>{const ts=tileRegions(1280,720);assert.equal(ts.length,4);for(let y=0;y<720;y+=10)for(let x=0;x<1280;x+=10)assert.ok(ts.some(([a,b,w,h])=>x>=a&&x<a+w&&y>=b&&y<b+h));});
+test('tracking keeps nearby identity, expires it and resets on new input',()=>{const t=new Tracker(),d={bbox:[10,10,50,30],class:'car',score:.8};assert.equal(t.update([d],0)[0].id,1);assert.equal(t.update([{...d,bbox:[12,11,50,30]}],500)[0].id,1);assert.equal(t.update([d],2500)[0].id,2);t.reset();assert.equal(t.update([d],3000)[0].id,1);});

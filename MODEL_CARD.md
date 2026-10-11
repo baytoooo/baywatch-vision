@@ -1,3 +1,7 @@
+# Version 2 scope
+
+Default vehicle detection uses pretrained COCO-SSD Lite MobileNet v2 (Apache-2.0), downloaded from official TensorFlow sources. It has no project-specific measured precision/recall. Small overhead vehicles are a known failure case. Scores are not calibrated probabilities. Vehicle detection does not discover empty parking spaces. The following card and 99.27% result apply ONLY to our separate PKLot occupancy classifier.
+
 # BayWatch HOG-MLP v1
 
 Task: binary occupancy of a single known parking-space crop. Not a general vehicle detector, damage classifier, charging-status detector or plate recogniser.
